@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Searchbar from "./Searchbar";
-import ImageGallery from "./ImageGallery";
-import Loader from "./Loader";
-import Button from "./Button";
-import Modal from "./Modal";
+import Searchbar from "./Searchbar/Searchbar";
+import ImageGallery from "./ImageGallery/ImageGallery";
+import Loader from "./Loader/Loader";
+import Button from "./Button/Button";
+import Modal from "./Modal/Modal";
 
 const App = () => {
   const [images, setImages] = useState([]);
